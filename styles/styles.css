@@ -322,7 +322,7 @@ table {
 /* demo-start */
 
 .demo_section {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .demo_video {
@@ -347,3 +347,31 @@ table {
 }
 
 /* demo-end */
+
+/* footer-start */
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background-color: #eaeaea;
+}
+
+.footer_logo {
+  border-radius: 100%;
+  opacity: 0.8;
+  width: 120px;
+  height: 70px;
+}
+
+.footer_text {
+  font-family: var(--text-font);
+  color: var(--text-color);
+  font-size: 12px;
+  margin-left: auto;
+  margin-top: auto;
+  max-width: 151px;
+}
+
+/* footer-end */
