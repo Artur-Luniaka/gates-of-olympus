@@ -274,3 +274,76 @@ table {
 }
 
 /* strategy-end */
+
+/* faq=start */
+
+.faq_section {
+  margin-bottom: 10px;
+}
+
+.faq_title {
+  font-family: var(--title-font);
+  color: var(--title-color);
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.faq_list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.faq_item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.faq_item_title {
+  font-family: var(--title-font);
+  color: var(--title-color);
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.faq_item_text {
+  font-family: var(--text-font);
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* faq-end */
+
+/* demo-start */
+
+.demo_section {
+  margin-bottom: 10px;
+}
+
+.demo_video {
+  width: 100%;
+  height: 450px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.demo_btn {
+  display: flex;
+  font-family: var(--text-font);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 8px 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: greenyellow;
+  color: #fafafa;
+}
+
+/* demo-end */
