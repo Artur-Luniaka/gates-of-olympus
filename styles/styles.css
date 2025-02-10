@@ -210,3 +210,67 @@ table {
 }
 
 /* bonus-end */
+
+/* strategy-start */
+
+.strategy_section {
+  margin-bottom: 10px;
+}
+
+.strategy_title {
+  font-family: var(--title-font);
+  color: var(--title-color);
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.strategy_list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.strategy_item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.strategy_item_title {
+  font-family: var(--title-font);
+  color: var(--title-color);
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  font-style: italic;
+}
+
+.strategy_item_text {
+  font-family: var(--text-font);
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.strategy_item_text::before {
+  content: "⚡";
+}
+
+.strategy_btn {
+  display: flex;
+  font-family: var(--text-font);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 8px 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: greenyellow;
+  color: #fafafa;
+}
+
+/* strategy-end */
