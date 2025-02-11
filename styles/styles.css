@@ -2,7 +2,7 @@
 @import url("./variables.css");
 @import url("./container.css");
 
-.background {
+/* .background {
   background-image: url("../images/bg-img-mob.webp");
   background-position: center;
   background-size: cover;
@@ -10,7 +10,7 @@
   @media (min-width: 1280px) {
     background-image: url("../images/bg-img-web.webp");
   }
-}
+} */
 
 /* header-start */
 
@@ -150,6 +150,8 @@
 .about_img {
   border-radius: 10px;
   margin-bottom: 10px;
+  width: 344px;
+  height: 344px;
   @media (min-width: 1280px) {
     display: flex;
     margin: 0 auto;
@@ -271,6 +273,8 @@ table {
 .bonus_img {
   border-radius: 10px;
   margin-bottom: 10px;
+  width: 344px;
+  height: 200px;
   @media (min-width: 1280px) {
     display: flex;
     margin: 0 auto;
