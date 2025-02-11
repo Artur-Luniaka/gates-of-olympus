@@ -1,8 +1,8 @@
 const header = document.querySelector("header");
-const webMarkUp = `<a href="/"
+const webMarkUp = `<a href="#"
             ><img
               class="header_logo"
-              src="./images/logo.png"
+              src="./images/logo.webp"
               alt="Gates of Olympus"
           /></a>
           <nav class="web_menu_nav">
@@ -22,10 +22,10 @@ const webMarkUp = `<a href="/"
             </ul>
           </nav>`;
 
-const mobMarkUp = `<a href="/"
+const mobMarkUp = `<a href="#"
             ><img
               class="header_logo"
-              src="./images/logo.png"
+              src="./images/logo.webp"
               alt="Gates of Olympus"
           /></a>
           <button class="header_menu_btn">
